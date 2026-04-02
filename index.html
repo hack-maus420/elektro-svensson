@@ -2,32 +2,78 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title>Meine Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Svensson Elektro</title>
     <style>
         body {
-            font-family: Arial;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
             text-align: center;
             margin: 0;
             padding: 0;
         }
-        img {
-            margin-top: 30px;
-            width: 300px;
+        header {
+            background-color: #0077cc;
+            color: white;
+            padding: 30px 20px;
         }
-        .text {
+        header h1 {
+            margin: 0;
+        }
+        main {
+            padding: 20px;
+        }
+        img {
+            max-width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
+        section {
             margin-top: 20px;
-            font-size: 20px;
+            text-align: left;
+            display: inline-block;
+        }
+        section h2 {
+            color: #0077cc;
+        }
+        footer {
+            margin-top: 30px;
+            padding: 10px;
+            background-color: #eee;
+            font-size: 0.9em;
+        }
+        a {
+            color: #0077cc;
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
 
-    <img src="bild.jpg" alt="Mein Bild">
+<header>
+    <h1>Svensson Elektro</h1>
+</header>
 
-    <div class="text">
-        <p>Willkommen auf meiner Website!</p>
-        <p>Hier steht mein Text 😎</p>
-    </div>
+<main>
+    <img src="bild.jpg" alt="Svensson Elektro Logo oder Bild">
+    
+    <section>
+        <h2>Über Sven Jandl</h2>
+        <p>Sven Jandl ist der Inhaber von Svensson Elektro. Er bietet professionelle Elektro-Dienstleistungen in Hohenberg a.d. Eger an und legt großen Wert auf Qualität und Zuverlässigkeit.</p>
+    </section>
+
+    <section>
+        <h2>Kontaktdaten</h2>
+        <p><strong>Adresse:</strong> Weißenbachstraße 17, 95691 Hohenberg a.d. Eger</p>
+        <p><strong>Inhaber:</strong> Sven Jandl</p>
+        <p><strong>Email:</strong> <a href="mailto:elektro-svensson@gmx.de">elektro-svensson@gmx.de</a></p>
+    </section>
+</main>
+
+<footer>
+    &copy; 2026 Svensson Elektro. Alle Rechte vorbehalten.
+</footer>
 
 </body>
 </html>
